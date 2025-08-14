@@ -2,7 +2,7 @@
  let amigos = [];
 
   function agregarAmigo() {
-    //Capturar el valor del campo del texto
+    //Capturar el valor del campo del texto y borra los espacios del principio y del final con el trim()
     let nombre = document.getElementById("amigo").value.trim();
     //Validacion de campo vacio
     if (nombre === "") {
